@@ -1,34 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import {
+  ActionIcon,
+  Badge,
+  Button,
+  ColorScheme,
+  ColorSchemeProvider,
+  MantineProvider,
+  Text,
+} from "@mantine/core";
+import { useState } from "react";
+import { IconSun, IconMoonStars } from "@tabler/icons";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
+  const toggleColorScheme = (value?: ColorScheme) =>
+    setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <ColorSchemeProvider
+      colorScheme={colorScheme}
+      toggleColorScheme={toggleColorScheme}
+    >
+      <MantineProvider
+        withGlobalStyles
+        withNormalizeCSS
+        theme={{ ...theme, colorScheme }}
+      >
+        <Text>Welcome to Mantine!</Text>
+        <ActionIcon
+          variant="outline"
+          color={colorScheme === "dark" ? "yellow" : "blue"}
+          onClick={() => toggleColorScheme()}
+          title="Toggle color scheme"
+        >
+          {colorScheme === "dark" ? (
+            <IconSun size={18} />
+          ) : (
+            <IconMoonStars size={18} />
+          )}
+        </ActionIcon>
+      </MantineProvider>
+    </ColorSchemeProvider>
+  );
 }
 
-export default App
+const theme = {
+  fontFamily: "Open Sans, sans serif",
+  spacing: { xs: 15, sm: 20, md: 25, lg: 30, xl: 40 },
+};
