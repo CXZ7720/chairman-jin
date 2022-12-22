@@ -9,6 +9,8 @@ import {
 } from "@mantine/core";
 import { useState } from "react";
 import { IconSun, IconMoonStars } from "@tabler/icons";
+import { ScreenLayout } from "./ScreenLayout";
+import { MainCanvas, MainTitle } from "./components";
 
 export default function App() {
   const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
@@ -25,7 +27,11 @@ export default function App() {
         withNormalizeCSS
         theme={{ ...theme, colorScheme }}
       >
-        <Text>Welcome to Mantine!</Text>
+        <ScreenLayout>
+          <MainTitle />
+          <MainCanvas />
+        </ScreenLayout>
+        {/* <Text>Welcome to Mantine!</Text>
         <ActionIcon
           variant="outline"
           color={colorScheme === "dark" ? "yellow" : "blue"}
@@ -37,7 +43,7 @@ export default function App() {
           ) : (
             <IconMoonStars size={18} />
           )}
-        </ActionIcon>
+        </ActionIcon> */}
       </MantineProvider>
     </ColorSchemeProvider>
   );

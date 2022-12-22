@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@emotion/react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
+            ["@emotion/styled", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
             ["@mantine/carousel", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/core", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
@@ -38,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.9"],\
             ["@vitejs/plugin-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:3.0.0"],\
             ["embla-carousel-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5"],\
+            ["polished", "npm:4.2.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -362,6 +364,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regenerator-runtime", "npm:0.13.11"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.20.7", {\
+          "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.20.7-69d8df458c-4629ce5c46.zip/node_modules/@babel/runtime/",\
+          "packageDependencies": [\
+            ["@babel/runtime", "npm:7.20.7"],\
+            ["regenerator-runtime", "npm:0.13.11"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@babel/template", [\
@@ -464,6 +474,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@emotion/is-prop-valid", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-is-prop-valid-npm-1.2.0-332d343e3d-cc7a19850a.zip/node_modules/@emotion/is-prop-valid/",\
+          "packageDependencies": [\
+            ["@emotion/is-prop-valid", "npm:1.2.0"],\
+            ["@emotion/memoize", "npm:0.8.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@emotion/memoize", [\
         ["npm:0.8.0", {\
           "packageLocation": "./.yarn/cache/@emotion-memoize-npm-0.8.0-c5dd451828-c87bb110b8.zip/node_modules/@emotion/memoize/",\
@@ -526,6 +546,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@emotion-sheet-npm-1.2.1-ede8a680b2-ce78763588.zip/node_modules/@emotion/sheet/",\
           "packageDependencies": [\
             ["@emotion/sheet", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emotion/styled", [\
+        ["npm:11.10.5", {\
+          "packageLocation": "./.yarn/cache/@emotion-styled-npm-11.10.5-ff28c219a9-1cec5f6aeb.zip/node_modules/@emotion/styled/",\
+          "packageDependencies": [\
+            ["@emotion/styled", "npm:11.10.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5", {\
+          "packageLocation": "./.yarn/__virtual__/@emotion-styled-virtual-5e81ea5965/0/cache/@emotion-styled-npm-11.10.5-ff28c219a9-1cec5f6aeb.zip/node_modules/@emotion/styled/",\
+          "packageDependencies": [\
+            ["@emotion/styled", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
+            ["@babel/core", null],\
+            ["@babel/runtime", "npm:7.20.6"],\
+            ["@emotion/babel-plugin", "virtual:bf753245e104198f36e339075f8dfa34d10b2d359539a1a65b8379b90272abeb6e185681f651ec911a564f1b4c886217ed5b3bc4a4fd3fa905cd8a983b0d2745#npm:11.10.5"],\
+            ["@emotion/is-prop-valid", "npm:1.2.0"],\
+            ["@emotion/react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
+            ["@emotion/serialize", "npm:1.1.1"],\
+            ["@emotion/use-insertion-effect-with-fallbacks", "virtual:bf753245e104198f36e339075f8dfa34d10b2d359539a1a65b8379b90272abeb6e185681f651ec911a564f1b4c886217ed5b3bc4a4fd3fa905cd8a983b0d2745#npm:1.0.0"],\
+            ["@emotion/utils", "npm:1.2.0"],\
+            ["@types/babel__core", null],\
+            ["@types/emotion__react", null],\
+            ["@types/react", "npm:18.0.26"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@babel/core",\
+            "@emotion/react",\
+            "@types/babel__core",\
+            "@types/emotion__react",\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1696,6 +1752,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["chairman-jin", "workspace:."],\
             ["@emotion/react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
+            ["@emotion/styled", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
             ["@mantine/carousel", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/core", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
@@ -1705,6 +1762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.9"],\
             ["@vitejs/plugin-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:3.0.0"],\
             ["embla-carousel-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5"],\
+            ["polished", "npm:4.2.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -2719,6 +2777,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/picocolors-npm-1.0.0-d81e0b1927-a2e8092dd8.zip/node_modules/picocolors/",\
           "packageDependencies": [\
             ["picocolors", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["polished", [\
+        ["npm:4.2.2", {\
+          "packageLocation": "./.yarn/cache/polished-npm-4.2.2-eb3d423b8d-97fb927dc5.zip/node_modules/polished/",\
+          "packageDependencies": [\
+            ["polished", "npm:4.2.2"],\
+            ["@babel/runtime", "npm:7.20.7"]\
           ],\
           "linkType": "HARD"\
         }]\

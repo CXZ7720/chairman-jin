@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'Macho';
+    src:
+        url('Macho.woff2') format('woff2'),
+        url('Macho.woff') format('woff');
+};
+
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
