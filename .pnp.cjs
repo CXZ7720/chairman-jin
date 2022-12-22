@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@emotion/react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
+            ["@mantine/carousel", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/core", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/modals", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
@@ -36,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["@vitejs/plugin-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:3.0.0"],\
+            ["embla-carousel-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -917,6 +919,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@mantine/carousel", [\
+        ["npm:5.9.5", {\
+          "packageLocation": "./.yarn/cache/@mantine-carousel-npm-5.9.5-d0676e5919-5efc2e0ca1.zip/node_modules/@mantine/carousel/",\
+          "packageDependencies": [\
+            ["@mantine/carousel", "npm:5.9.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5", {\
+          "packageLocation": "./.yarn/__virtual__/@mantine-carousel-virtual-0ef328c01f/0/cache/@mantine-carousel-npm-5.9.5-d0676e5919-5efc2e0ca1.zip/node_modules/@mantine/carousel/",\
+          "packageDependencies": [\
+            ["@mantine/carousel", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
+            ["@mantine/core", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
+            ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
+            ["@mantine/utils", "virtual:0ef328c01f6a99cabcb161885f69f7ad54437396f5e3ea517d1da004de3c2c206d309203a5257f5224f91f4aa7b5353d1766f6862ad75e37689df42323440699#npm:5.9.5"],\
+            ["@types/embla-carousel-react", null],\
+            ["@types/mantine__core", null],\
+            ["@types/mantine__hooks", null],\
+            ["@types/react", "npm:18.0.26"],\
+            ["embla-carousel-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@mantine/core",\
+            "@mantine/hooks",\
+            "@types/embla-carousel-react",\
+            "@types/mantine__core",\
+            "@types/mantine__hooks",\
+            "@types/react",\
+            "embla-carousel-react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@mantine/core", [\
         ["npm:5.9.5", {\
           "packageLocation": "./.yarn/cache/@mantine-core-npm-5.9.5-b2f34fa9d8-207214e9ee.zip/node_modules/@mantine/core/",\
@@ -932,7 +969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@floating-ui/react-dom-interactions", "virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:0.10.3"],\
             ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/styles", "virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:5.9.5"],\
-            ["@mantine/utils", "virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:5.9.5"],\
+            ["@mantine/utils", "virtual:0ef328c01f6a99cabcb161885f69f7ad54437396f5e3ea517d1da004de3c2c206d309203a5257f5224f91f4aa7b5353d1766f6862ad75e37689df42323440699#npm:5.9.5"],\
             ["@radix-ui/react-scroll-area", "virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:1.0.2"],\
             ["@types/mantine__hooks", null],\
             ["@types/react", "npm:18.0.26"],\
@@ -988,7 +1025,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mantine/modals", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/core", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
-            ["@mantine/utils", "virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:5.9.5"],\
+            ["@mantine/utils", "virtual:0ef328c01f6a99cabcb161885f69f7ad54437396f5e3ea517d1da004de3c2c206d309203a5257f5224f91f4aa7b5353d1766f6862ad75e37689df42323440699#npm:5.9.5"],\
             ["@types/mantine__core", null],\
             ["@types/mantine__hooks", null],\
             ["@types/react", "npm:18.0.26"],\
@@ -1052,10 +1089,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:5.9.5", {\
-          "packageLocation": "./.yarn/__virtual__/@mantine-utils-virtual-1ddd9eb6b7/0/cache/@mantine-utils-npm-5.9.5-75d6183532-12a4874b23.zip/node_modules/@mantine/utils/",\
+        ["virtual:0ef328c01f6a99cabcb161885f69f7ad54437396f5e3ea517d1da004de3c2c206d309203a5257f5224f91f4aa7b5353d1766f6862ad75e37689df42323440699#npm:5.9.5", {\
+          "packageLocation": "./.yarn/__virtual__/@mantine-utils-virtual-9be8d04108/0/cache/@mantine-utils-npm-5.9.5-75d6183532-12a4874b23.zip/node_modules/@mantine/utils/",\
           "packageDependencies": [\
-            ["@mantine/utils", "virtual:ced6bc8cc42fde097fb862b0f22e8bf9daf02d78369d143157745ca4d7ed6389777d0041f0006d7ed99ac512cf68f07a5e191574a5a4e4f5f63be99fe553ed3d#npm:5.9.5"],\
+            ["@mantine/utils", "virtual:0ef328c01f6a99cabcb161885f69f7ad54437396f5e3ea517d1da004de3c2c206d309203a5257f5224f91f4aa7b5353d1766f6862ad75e37689df42323440699#npm:5.9.5"],\
             ["@types/react", "npm:18.0.26"],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -1659,6 +1696,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["chairman-jin", "workspace:."],\
             ["@emotion/react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:11.10.5"],\
+            ["@mantine/carousel", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/core", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/hooks", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
             ["@mantine/modals", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:5.9.5"],\
@@ -1666,6 +1704,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["@vitejs/plugin-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:3.0.0"],\
+            ["embla-carousel-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
@@ -1844,6 +1883,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.284-2fb881a7ac-be496e9dca.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
             ["electron-to-chromium", "npm:1.4.284"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["embla-carousel", [\
+        ["npm:7.0.5", {\
+          "packageLocation": "./.yarn/cache/embla-carousel-npm-7.0.5-56e02d341e-5992862412.zip/node_modules/embla-carousel/",\
+          "packageDependencies": [\
+            ["embla-carousel", "npm:7.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["embla-carousel-react", [\
+        ["npm:7.0.5", {\
+          "packageLocation": "./.yarn/cache/embla-carousel-react-npm-7.0.5-4fab833b50-9d57f04b1f.zip/node_modules/embla-carousel-react/",\
+          "packageDependencies": [\
+            ["embla-carousel-react", "npm:7.0.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5", {\
+          "packageLocation": "./.yarn/__virtual__/embla-carousel-react-virtual-08ed319824/0/cache/embla-carousel-react-npm-7.0.5-4fab833b50-9d57f04b1f.zip/node_modules/embla-carousel-react/",\
+          "packageDependencies": [\
+            ["embla-carousel-react", "virtual:405db8f72d5cfb5ad66931159b449057d81a7b035d13a228410184a524c4ee9f5ff9eb8e106de450695873e14abe54c3f0f3cdaf3549b71cab43c625085cd839#npm:7.0.5"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["embla-carousel", "npm:7.0.5"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

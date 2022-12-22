@@ -666,6 +666,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantine/carousel@npm:^5.9.5":
+  version: 5.9.5
+  resolution: "@mantine/carousel@npm:5.9.5"
+  dependencies:
+    "@mantine/utils": 5.9.5
+  peerDependencies:
+    "@mantine/core": 5.9.5
+    "@mantine/hooks": 5.9.5
+    embla-carousel-react: ^7.0.0
+    react: ">=16.8.0"
+  checksum: 5efc2e0ca1ae6103d0d39c7dbb6d101ce88a2512b151d256e2ff73e1c2606361febbdd68a50d15b0335ea3fe606b19d8b890b52d753352a350654090ca37f8cc
+  languageName: node
+  linkType: hard
+
 "@mantine/core@npm:^5.9.5":
   version: 5.9.5
   resolution: "@mantine/core@npm:5.9.5"
@@ -1141,6 +1155,7 @@ __metadata:
   resolution: "chairman-jin@workspace:."
   dependencies:
     "@emotion/react": ^11.10.5
+    "@mantine/carousel": ^5.9.5
     "@mantine/core": ^5.9.5
     "@mantine/hooks": ^5.9.5
     "@mantine/modals": ^5.9.5
@@ -1148,6 +1163,7 @@ __metadata:
     "@types/react": ^18.0.26
     "@types/react-dom": ^18.0.9
     "@vitejs/plugin-react": ^3.0.0
+    embla-carousel-react: ^7.0.5
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.8.4
@@ -1290,6 +1306,24 @@ __metadata:
   version: 1.4.284
   resolution: "electron-to-chromium@npm:1.4.284"
   checksum: be496e9dca6509dbdbb54dc32146fc99f8eb716d28a7ee8ccd3eba0066561df36fc51418d8bd7cf5a5891810bf56c0def3418e74248f51ea4a843d423603d10a
+  languageName: node
+  linkType: hard
+
+"embla-carousel-react@npm:^7.0.5":
+  version: 7.0.5
+  resolution: "embla-carousel-react@npm:7.0.5"
+  dependencies:
+    embla-carousel: 7.0.5
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.1 || ^18.0.0
+  checksum: 9d57f04b1fa22d3b8c5c82c4bf5b7522ec29a1888324cdfe3ec2b69c3440591c430ad741ee5d9e1fcb020bd0e567b61d7a5d599f36c711b4636468d2d8725b07
+  languageName: node
+  linkType: hard
+
+"embla-carousel@npm:7.0.5":
+  version: 7.0.5
+  resolution: "embla-carousel@npm:7.0.5"
+  checksum: 59928624126f4537642c7391d8aacb617ff021e2bf290c2d54693feaa45a6aa04a08f213c98f76696dca67d1d3e681cba3c15bea279e7c336028019e5bdb39ef
   languageName: node
   linkType: hard
 
