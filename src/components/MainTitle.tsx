@@ -10,7 +10,7 @@ export const MainTitle = () => {
           fontFamily: "Macho",
         }}
       >
-        재벌집 막내아들 짤 생성기
+        재벌집 막내아들 짤 생성기 (Beta)
       </Title>
     </Container>
   );
